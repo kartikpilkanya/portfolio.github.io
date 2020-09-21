@@ -1,14 +1,40 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title> profile card animation</title>
-        <link rel="stylesheet" href="button.css">
-
-    </head>
-    <body>
-        <div>
-          <a href="#"class="btn" ></a>
-        </div>
-    </body>
+  <head>
+    <title>Portfolio|Kartik Pilkanya</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #000000;
+      }
+      p {
+        position: relative;
+        font-family: Impact, sans-serif;
+        font-size: 45px;
+        letter-spacing: 2px;
+        background: linear-gradient(90deg, #ffffff, #fff, rgba(0, 0, 0, 0.267));
+        background-repeat: no-repeat;
+        background-size: 80%;
+        animation: animate 5s infinite;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: rgba(255, 255, 255, 0.411);
+      }
+      @keyframes animate {
+        0% {
+          background-position: -500%;
+        }
+        100% {
+          background-position: 500%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <p>Coming soon....</p>
+  </body>
 </html>
