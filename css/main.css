@@ -78,6 +78,7 @@
 	font-size: 16px;
 	border:none;
 	background-color: rgba(0, 0, 0, 0);
+	overflow: hidden;
 	/* opacity: 1; */
 	/* text-align: left; */
 }
@@ -116,6 +117,7 @@
 	font-size: 16px;
 	border:none;
 	background-color: rgba(0, 0, 0, 0);
+	overflow: hidden;
 	/* opacity: 1; */
 	/* text-align: left; */
 }
@@ -154,6 +156,7 @@
 	font-weight: Regular;
 	font-size: 16px;
 	border: none;
+	overflow: hidden;
 	/* opacity: 1; */
 	/* text-align: left; */
 }
